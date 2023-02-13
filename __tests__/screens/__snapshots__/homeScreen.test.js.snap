@@ -1,0 +1,738 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing login screen renders Login Screen 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    [
+      {
+        "flex": 1,
+        "paddingBottom": 20,
+        "paddingTop": 30,
+      },
+      {},
+    ]
+  }
+>
+  <Image
+    source={
+      {
+        "testUri": "../../../src/assets/images/background.jpg",
+      }
+    }
+    style={
+      [
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "padding": 20,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            {
+              "testUri": "../../../src/assets/images/logout.jpg",
+            }
+          }
+          style={
+            {
+              "height": 60,
+              "width": 60,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 45.89389937671454,
+            "margin": 15,
+            "textAlign": "center",
+          }
+        }
+      >
+        Word Puzzle
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            {
+              "testUri": "../../../src/assets/images/gold.jpg",
+            }
+          }
+          style={
+            {
+              "height": 45,
+              "margin": 5,
+              "width": 45,
+            }
+          }
+        />
+        <Text
+          style={
+            [
+              {
+                "fontSize": 38.244916147262124,
+              },
+              {
+                "color": "white",
+              },
+            ]
+          }
+        >
+          0
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "justifyContent": "space-around",
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          forwardedRef={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "rgba(255,255,255,0.4)",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "height": 80.03999999999999,
+              "justifyContent": "space-between",
+              "margin": 22.5,
+              "opacity": 0,
+              "padding": 7.5,
+              "transform": [
+                {
+                  "translateY": -800,
+                },
+              ],
+              "width": 525,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+                {
+                  "marginHorizontal": 7.5,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 15.297966458904849,
+                }
+              }
+            >
+              Level
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontSize": 22.94694968835727,
+                  },
+                  {
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              0/10
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "fontSize": 38.244916147262124,
+              }
+            }
+          >
+            Cities
+          </Text>
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+                {
+                  "marginHorizontal": 7.5,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 15.297966458904849,
+                }
+              }
+            >
+              Score
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontSize": 22.94694968835727,
+                  },
+                  {
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              0
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          forwardedRef={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "rgba(255,255,255,0.4)",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "height": 80.03999999999999,
+              "justifyContent": "space-between",
+              "margin": 22.5,
+              "opacity": 0,
+              "padding": 7.5,
+              "transform": [
+                {
+                  "translateY": -800,
+                },
+              ],
+              "width": 525,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+                {
+                  "marginHorizontal": 7.5,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 15.297966458904849,
+                }
+              }
+            >
+              Level
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontSize": 22.94694968835727,
+                  },
+                  {
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              0/10
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "fontSize": 38.244916147262124,
+              }
+            }
+          >
+            Foods
+          </Text>
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+                {
+                  "marginHorizontal": 7.5,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 15.297966458904849,
+                }
+              }
+            >
+              Score
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontSize": 22.94694968835727,
+                  },
+                  {
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              0
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          forwardedRef={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "rgba(255,255,255,0.4)",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "height": 80.03999999999999,
+              "justifyContent": "space-between",
+              "margin": 22.5,
+              "opacity": 0,
+              "padding": 7.5,
+              "transform": [
+                {
+                  "translateY": -800,
+                },
+              ],
+              "width": 525,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+                {
+                  "marginHorizontal": 7.5,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 15.297966458904849,
+                }
+              }
+            >
+              Level
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontSize": 22.94694968835727,
+                  },
+                  {
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              0/10
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "fontSize": 38.244916147262124,
+              }
+            }
+          >
+            Animals
+          </Text>
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+                {
+                  "marginHorizontal": 7.5,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 15.297966458904849,
+                }
+              }
+            >
+              Score
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontSize": 22.94694968835727,
+                  },
+                  {
+                    "fontWeight": "bold",
+                  },
+                ]
+              }
+            >
+              0
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          forwardedRef={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "rgba(136,213,66,0.8)",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "height": 80.03999999999999,
+              "justifyContent": "center",
+              "margin": 20,
+              "opacity": 0,
+              "padding": 7.5,
+              "transform": [
+                {
+                  "scale": 0.3,
+                },
+              ],
+              "width": 525,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 30.595932917809698,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            START
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          forwardedRef={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "rgba(136,213,66,0.8)",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "height": 80.03999999999999,
+              "justifyContent": "center",
+              "margin": 20,
+              "opacity": 0,
+              "padding": 7.5,
+              "transform": [
+                {
+                  "scale": 0.3,
+                },
+              ],
+              "width": 525,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 30.595932917809698,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            LEADER BOARD
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

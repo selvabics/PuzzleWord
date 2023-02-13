@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing splach screen renders Splash Screen 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    [
+      {
+        "flex": 1,
+        "paddingBottom": 20,
+        "paddingTop": 30,
+      },
+      {},
+    ]
+  }
+>
+  <Image
+    source={
+      {
+        "testUri": "../../../src/assets/images/background.jpg",
+      }
+    }
+    style={
+      [
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      [
+        {
+          "flex": 1,
+        },
+        {
+          "alignItems": "center",
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="white"
+      size="small"
+    />
+  </View>
+</View>
+`;

@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing login screen renders Login Screen 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    [
+      {
+        "flex": 1,
+        "paddingBottom": 20,
+        "paddingTop": 30,
+      },
+      {},
+    ]
+  }
+>
+  <Image
+    source={
+      {
+        "testUri": "../../../src/assets/images/background.jpg",
+      }
+    }
+    style={
+      [
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    collapsable={false}
+    forwardedRef={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "opacity": 0,
+        "transform": [
+          {
+            "scale": 0.3,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          {
+            "paddingBottom": 0,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 61.191865835619396,
+            "margin": 22.5,
+          }
+        }
+      >
+        Puzzle Word
+      </Text>
+      <TextInput
+        autoCapitalize="none"
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        placeholder="Email Address"
+        style={
+          {
+            "backgroundColor": "rgba(255,255,255,0.4)",
+            "borderColor": "rgb(45,70,90)",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "fontSize": 30.595932917809698,
+            "height": 80.03999999999999,
+            "marginTop": 40.019999999999996,
+            "padding": 5,
+            "textAlign": "center",
+            "width": 525,
+          }
+        }
+        value="selva@gmail.com"
+      />
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          forwardedRef={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "rgba(136,213,66,0.8)",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "height": 80.03999999999999,
+              "justifyContent": "center",
+              "margin": 20,
+              "opacity": 0,
+              "padding": 7.5,
+              "transform": [
+                {
+                  "scale": 0.3,
+                },
+              ],
+              "width": 525,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 30.595932917809698,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            SIGN IN
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,467 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing common component renders ActionButton 1`] = `
+<View
+  collapsable={false}
+  forwardedRef={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "opacity": 0,
+      "padding": 20,
+      "transform": [
+        {
+          "translateY": -800,
+        },
+      ],
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 22.94694968835727,
+          },
+          {
+            "color": "white",
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Level
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 45.89389937671454,
+          },
+          {
+            "color": "white",
+            "fontWeight": "bold",
+            "textAlign": "center",
+          },
+        ]
+      }
+    />
+  </View>
+  <Text
+    style={
+      {
+        "color": "white",
+        "fontSize": 45.89389937671454,
+        "margin": 15,
+        "textAlign": "center",
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 22.94694968835727,
+          },
+          {
+            "color": "white",
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Scores
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 45.89389937671454,
+          },
+          {
+            "color": "white",
+            "fontWeight": "bold",
+            "textAlign": "center",
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Testing common component renders ActionButton 2`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    forwardedRef={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "rgba(136,213,66,0.8)",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "height": 80.03999999999999,
+        "justifyContent": "center",
+        "margin": 20,
+        "opacity": 0,
+        "padding": 7.5,
+        "transform": [
+          {
+            "scale": 0.3,
+          },
+        ],
+        "width": 525,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 30.595932917809698,
+          "fontWeight": "bold",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Testing common component renders BackgroundWallpaper 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    [
+      {
+        "flex": 1,
+        "paddingBottom": 20,
+        "paddingTop": 30,
+      },
+      {},
+    ]
+  }
+>
+  <Image
+    source={
+      {
+        "testUri": "../../../src/assets/images/background.jpg",
+      }
+    }
+    style={
+      [
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Testing common component renders Category 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    forwardedRef={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "rgba(255,255,255,0.4)",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 80.03999999999999,
+        "justifyContent": "space-between",
+        "margin": 22.5,
+        "opacity": 0,
+        "padding": 7.5,
+        "transform": [
+          {
+            "translateY": -800,
+          },
+        ],
+        "width": 525,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          {
+            "marginHorizontal": 7.5,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 15.297966458904849,
+          }
+        }
+      >
+        Level
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "fontSize": 22.94694968835727,
+            },
+            {
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      >
+        undefined/undefined
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "fontSize": 38.244916147262124,
+        }
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          {
+            "marginHorizontal": 7.5,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 15.297966458904849,
+          }
+        }
+      >
+        Score
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "fontSize": 22.94694968835727,
+            },
+            {
+              "fontWeight": "bold",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Testing common component renders PuzzleBox 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    forwardedRef={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "rgba(255,255,255,0.4)",
+        "borderColor": "rgb(45,70,90)",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "height": 90,
+        "justifyContent": "center",
+        "margin": 10,
+        "opacity": 0,
+        "padding": 5,
+        "transform": [
+          {
+            "translateY": -800,
+          },
+        ],
+        "width": 90,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 38.244916147262124,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Testing common component renders Success 1`] = `
+<Text
+  collapsable={false}
+  forwardedRef={[Function]}
+  style={
+    {
+      "color": "rgb(111,240,205)",
+      "fontSize": 61.191865835619396,
+      "margin": 20,
+      "opacity": 0,
+      "textAlign": "center",
+      "transform": [
+        {
+          "scale": 0.3,
+        },
+      ],
+    }
+  }
+>
+  Correct!
+  
+
+  Congratulations
+  
+
+  You earn 
+  
+
+  points
+</Text>
+`;
