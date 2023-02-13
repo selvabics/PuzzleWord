@@ -30,9 +30,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">38.23% </span>
+                <span class="strong">34.37% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>13/34</span>
+                <span class='fraction'>11/32</span>
             </div>
         
             
@@ -370,7 +370,10 @@
 <a name='L305'></a><a href='#L305'>305</a>
 <a name='L306'></a><a href='#L306'>306</a>
 <a name='L307'></a><a href='#L307'>307</a>
-<a name='L308'></a><a href='#L308'>308</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L308'></a><a href='#L308'>308</a>
+<a name='L309'></a><a href='#L309'>309</a>
+<a name='L310'></a><a href='#L310'>310</a>
+<a name='L311'></a><a href='#L311'>311</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -594,7 +597,11 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -621,7 +628,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -895,7 +901,9 @@ const PuzzleScreen = ({ route }) =&gt; {
             &lt;View style={[CommonStyles.flex, CommonStyles.center]}&gt;
                 &lt;TouchableOpacity onPress={popLetterToPuzzleList}&gt;
                     &lt;FlatList
+                        key={`${noOfColumn}`}
                         scrollEnabled={false}
+                        showsVerticalScrollIndicator={false}
                         contentContainerStyle={{ justifyContent: 'center', alignItems: 'center' }}
                         style={{ flexGrow: 0, flexWrap: 'wrap' }}
                         numColumns={noOfColumn}
@@ -911,7 +919,9 @@ const PuzzleScreen = ({ route }) =&gt; {
                     &lt;/TouchableOpacity&gt;
                 &lt;/Animated.View&gt;
                 &lt;FlatList
+                    key={`${noOfColumn}`}
                     scrollEnabled={false}
+                    showsVerticalScrollIndicator={false}
                     contentContainerStyle={{ justifyContent: 'center', alignItems: 'center' }}
                     style={{ flexGrow: 0, flexWrap: 'wrap' }}
                     numColumns={noOfColumn}
@@ -935,27 +945,26 @@ const PuzzleScreen = ({ route }) =&gt; {
                     level={level + 1}
                     points={points}
                 /&gt;
-                {!success &amp;&amp; (
-                    &lt;ActionButton
-                        style={[styles.actionButton, { alignSelf: 'center' }]}
-                        title={'RESET'}
-                        onPress={resetLetters}
-                    /&gt;
-                )}
-                {success ? <span class="branch-0 cbranch-no" title="branch not covered" >renderSuccess() </span>: renderPuzzle()}
                 &lt;Text style={styles.errorText}&gt;{error ? <span class="branch-0 cbranch-no" title="branch not covered" >'Incorrect Answer' </span>: '.'}&lt;/Text&gt;
+                {success ? <span class="branch-0 cbranch-no" title="branch not covered" >renderSuccess() </span>: renderPuzzle()}
                 &lt;View style={CommonStyles.headerView}&gt;
                     &lt;ActionButton
                         style={styles.actionButton}
                         title={'BACK'}
                         onPress={goToHomeScreen}
                     /&gt;
-                    {success &amp;&amp; (
-<span class="branch-1 cbranch-no" title="branch not covered" >                        &lt;ActionButton</span>
+                    {success ? (
+<span class="branch-0 cbranch-no" title="branch not covered" >                        &lt;ActionButton</span>
                             style={styles.actionButton}
                             title={'NEXT'}
                             onPress={goToNextLevel}
-                        /&gt;)}
+                        /&gt;) : (
+                        &lt;ActionButton
+                            style={[styles.actionButton, { alignSelf: 'center' }]}
+                            title={'RESET'}
+                            onPress={resetLetters}
+                        /&gt;
+                    )}
                 &lt;/View&gt;
             &lt;/View&gt;
         &lt;/BackgroundWallper&gt;
@@ -965,7 +974,7 @@ const PuzzleScreen = ({ route }) =&gt; {
 const styles = StyleSheet.create({
     errorText: {
         ...CommonStyles.h4,
-        margin: 20,
+        margin: 10,
         fontWeight: 'bold',
         textAlign: 'center',
         color: Colors.status,
@@ -991,7 +1000,7 @@ export default PuzzleScreen;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-02-12T08:15:23.950Z
+                at 2023-02-13T04:59:39.794Z
             </div>
         <script src="../prettify.js"></script>
         <script>

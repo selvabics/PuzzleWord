@@ -1,5 +1,6 @@
 
 About the app
+
 This is a simple offline puzzle word game app. This app has feature such as 
 1. Login
 2. Puzzle game with different category
@@ -37,6 +38,12 @@ Run iOS app
 5. cd ..
 6. npx react-native run-ios
 
+Some Important Third Party Libraries Used
+
+1. @reduxjs/toolkit for state management
+2. redux-persist for persist data
+3. react-native-animatable for animation
+4. react-native-sound for sounds
 
 App Store submission
 
