@@ -52,7 +52,7 @@ exports[`Testing login screen renders Login Screen 1`] = `
           "alignItems": "center",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "padding": 20,
+          "paddingHorizontal": 20,
           "width": "100%",
         }
       }

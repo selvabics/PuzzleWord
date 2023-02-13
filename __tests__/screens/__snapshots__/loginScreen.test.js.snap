@@ -98,7 +98,7 @@ exports[`Testing login screen renders Login Screen 1`] = `
             "width": 525,
           }
         }
-        value="selva@gmail.com"
+        value=""
       />
       <View
         accessibilityState={

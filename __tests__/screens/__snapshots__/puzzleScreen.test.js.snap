@@ -53,7 +53,7 @@ exports[`Testing login screen renders Login Screen 1`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "opacity": 0,
-          "padding": 20,
+          "paddingHorizontal": 20,
           "transform": [
             {
               "translateY": -800,
@@ -154,76 +154,19 @@ exports[`Testing login screen renders Login Screen 1`] = `
         </Text>
       </View>
     </View>
-    <View
-      accessibilityState={
-        {
-          "busy": undefined,
-          "checked": undefined,
-          "disabled": undefined,
-          "expanded": undefined,
-          "selected": undefined,
-        }
-      }
-      accessibilityValue={
-        {
-          "max": undefined,
-          "min": undefined,
-          "now": undefined,
-          "text": undefined,
-        }
-      }
-      accessible={true}
-      collapsable={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+    <Text
       style={
         {
-          "opacity": 1,
+          "color": "rgb(111,240,205)",
+          "fontSize": 38.244916147262124,
+          "fontWeight": "bold",
+          "margin": 10,
+          "textAlign": "center",
         }
       }
     >
-      <View
-        collapsable={false}
-        forwardedRef={[Function]}
-        style={
-          {
-            "alignItems": "center",
-            "alignSelf": "center",
-            "backgroundColor": "rgba(136,213,66,0.8)",
-            "borderRadius": 5,
-            "borderWidth": 1,
-            "height": 80.03999999999999,
-            "justifyContent": "center",
-            "margin": 20,
-            "opacity": 0,
-            "padding": 7.5,
-            "transform": [
-              {
-                "scale": 0.3,
-              },
-            ],
-            "width": 225,
-          }
-        }
-      >
-        <Text
-          style={
-            {
-              "fontSize": 30.595932917809698,
-              "fontWeight": "bold",
-            }
-          }
-        >
-          RESET
-        </Text>
-      </View>
-    </View>
+      .
+    </Text>
     <View
       style={
         [
@@ -293,6 +236,7 @@ exports[`Testing login screen renders Login Screen 1`] = `
           renderItem={[Function]}
           scrollEnabled={false}
           scrollEventThrottle={50}
+          showsVerticalScrollIndicator={false}
           stickyHeaderIndices={[]}
           style={
             {
@@ -389,6 +333,7 @@ exports[`Testing login screen renders Login Screen 1`] = `
         renderItem={[Function]}
         scrollEnabled={false}
         scrollEventThrottle={50}
+        showsVerticalScrollIndicator={false}
         stickyHeaderIndices={[]}
         style={
           {
@@ -401,26 +346,13 @@ exports[`Testing login screen renders Login Screen 1`] = `
         <View />
       </RCTScrollView>
     </View>
-    <Text
-      style={
-        {
-          "color": "rgb(111,240,205)",
-          "fontSize": 38.244916147262124,
-          "fontWeight": "bold",
-          "margin": 20,
-          "textAlign": "center",
-        }
-      }
-    >
-      .
-    </Text>
     <View
       style={
         {
           "alignItems": "center",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "padding": 20,
+          "paddingHorizontal": 20,
           "width": "100%",
         }
       }
@@ -491,6 +423,76 @@ exports[`Testing login screen renders Login Screen 1`] = `
             }
           >
             BACK
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          forwardedRef={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "rgba(136,213,66,0.8)",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "height": 80.03999999999999,
+              "justifyContent": "center",
+              "margin": 20,
+              "opacity": 0,
+              "padding": 7.5,
+              "transform": [
+                {
+                  "scale": 0.3,
+                },
+              ],
+              "width": 225,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 30.595932917809698,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            RESET
           </Text>
         </View>
       </View>
